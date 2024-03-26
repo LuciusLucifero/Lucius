@@ -1,0 +1,93 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/lahgw/style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>Script HTML Untukmu</title>
+<link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
+<!-- 
+  
+  Made with love by Rayys!
+  
+     Blog: https://PalingIT.com
+     Instagram: @rayyarrr
+     TikTok: @rayy4r
+     Email: rayyar0703@gmail.com
+     
+  Thanks to all <3
+  
+-->
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini --><audio autoplay controls src="musik.mp3" id="linkmp3"></audio><script>audio = new Audio('' + linkmp3.src);</script>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="data:image/png;base64,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" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+
+   <div id='Content'>
+   	
+     <div id="suratin" onClick="memulai();">
+       <!-- Tombol Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
+     </div>
+     <p id="ket">Klik Pesannya!</p>
+   
+     <div>
+         <!-- Stiker untuk Konten -->
+         <img src="https://feeldreams.github.io/tinju.gif" id="fotoakhir"/>
+         <img src="https://feeldreams.github.io/pandateriak.gif" id="fotoakhir1"/>
+         <img src="https://feeldreams.github.io/weee.gif" id="fotoakhir2"/>
+
+         <img src="https://feeldreams.github.io/emawh.gif" id="fotoAkhir"/>
+     </div>
+     <div><blockquote id='bq'>
+  
+       <!-- Konten Penerapan -->
+       <p id="kalimat">Semangat ayang......</p>
+       <p id="kalimata">Kalo ga semangat giginya kelip kelip 😆</p>
+       <p id="kalimatb">Loooooooooppppppppyuuuuuuuuuuuuuuuu🤣</p>
+
+       <!-- Konten Pertanyaan -->
+       <p id="kalimat2">Lop balik ga nih? 😆❤️</p>
+
+       <!-- Konten Jawaban -->
+       <p id="kalimat3">Jawabanmu: </p>
+       <p id="kalimatb3">Kirim jawabannya ke WhatsApp aku yaa~</p>
+     </blockquote></div>
+   
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a id="By" onClick="multifungsi()">
+         <b id="tmbl">Lanjut</b>
+         <b id="tmbl2">💌 Balas</b>
+       </a>
+     </div>
+     
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  const swalst = Swal.mixin({timer: 2777, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 100,});ftom=0;jikakuis=0;ftganti=0;flag=1;flagg=1;fungsi=0;const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,}); const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+  
+  function mulaikonten() {
+                          fmulaikonten();audio.play();ftganti=0;ftmuncul();
+                          setTimeout(fmulaiketik1,400);setTimeout(mulaiketik1,400);
+                          setTimeout(fmulaiketik1b,2200);setTimeout(mulaiketik1b,2200);
+                          setTimeout(fmulaiketik2,3600);setTimeout(mulaiketik2,3600);
+                         }
+  
+  function ftmuncul(){
+    if(ftganti==0){fotoakhir.style="display:inline-flex;transition:all .7s ease;opacity:1;transform:scale(1)";}
+    if(ftganti==1){fotoakhir.src = fotoakhir1.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==2){fotoakhir.src = fotoakhir2.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+    if(ftganti==3){fotoakhir.src = fotoAkhir.src;fotoakhir.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(1);";}
+  }
+</script>
+<script src="https://malasid.github.io/html/bonuskamu.js"></script>
+<!-- Sampai Sini -->
+</body>
+</html>
